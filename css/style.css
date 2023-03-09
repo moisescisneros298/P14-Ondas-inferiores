@@ -49,6 +49,14 @@ section .ondas span:nth-child(3) {
   background: rgba(20, 20, 20, 0.5);
   animation: animate 15s linear infinite;
 }
+section .content {
+  position: relative;
+  font-size: 4em;
+  letter-spacing: 2px;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
 
 @keyframes animate {
   0% {
